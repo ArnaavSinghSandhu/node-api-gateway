@@ -16,6 +16,8 @@ Example Nginx config for production deployment
 
 ⚠️ Brutally honest: This gateway is suitable for learning and medium-scale internal apps. It is not a full enterprise-grade API Gateway like Kong or AWS API Gateway. Security, observability, and scaling depend on your Node cluster and Redis setup.
 
+![PHOTO-2026-03-03-10-32-37](https://github.com/user-attachments/assets/b27db693-a69e-45f3-bec5-f66d637b3b7b)
+
 💡 Features
 Token Bucket Rate Limiter
 
@@ -69,7 +71,8 @@ Load Test Summary (Autocannon)
 ![PHOTO-2026-03-03-08-40-50](https://github.com/user-attachments/assets/1ed3f925-894d-4e5c-b490-f7fc0cc0b99b)
 ![PHOTO-2026-03-03-08-41-05](https://github.com/user-attachments/assets/f2fe6821-cb83-4603-b02b-4c0594f101e9)
 ![PHOTO-2026-03-03-08-41-19](https://github.com/user-attachments/assets/b1197279-7431-4cab-9458-54461b5d5401)
-Metric	Test 1 (Global/No Key)	Test 2 (Client 3)	Test 3 (Client 1)
+Metric	Test 1 (
+Global/No Key)	Test 2 (Client 3)	Test 3 (Client 1)
 Total Requests	~90,000	~85,000	~84,000
 2xx Successes	124	124	124
 
